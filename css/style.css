@@ -1,0 +1,411 @@
+
+/* General */
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+/* General */
+/* start home  */
+/* start navbar */
+
+
+#home .nav-item {
+    padding: 0 5px;
+}
+.nav-item a:hover{
+    color: black;
+}
+/* end navbar */
+
+#home {
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+} 
+#home .layer {
+    background-color: rgba(0, 0, 0, 0.64);
+}
+.home-content  h4,h2{
+    font-size: 50px;
+}
+
+
+/* start keyframes */
+@keyframes scroll {
+
+    0% {
+        bottom: 50px;
+    }
+
+    10% {
+        bottom: 100px;
+    }
+
+    20% {
+        bottom: 50px;
+    }
+
+    30% {
+        bottom: 80px;
+    }
+
+    40% {
+        bottom: 50px;
+    }
+
+    50% {
+        bottom: 70px;
+    }
+
+    60% {
+        bottom: 50px;
+    }
+
+    70% {
+        bottom: 60px;
+    }
+
+    80% {
+        bottom: 50px;
+    }
+
+    90% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 50px;
+    }
+}
+
+h1::after {
+    content: "|";
+    animation: typing 4s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "Larry Daniels |";
+    }
+
+    50% {
+        content: " Developer|";
+    }
+
+   
+
+    100% {
+        content: "Designer|";
+    }
+
+   
+
+  
+
+  
+}
+/* end keyframes */
+
+ /* start icon */
+.about-social i:hover{
+    color: blue;
+}
+/* end icon */
+/* end home */
+
+
+ /* start About  */
+/* start skills */
+ .one{
+    width: 65%;
+}
+.two{
+    width: 95%;
+}
+.three{
+    width: 80%;
+}
+
+   .skills{
+   margin-top: 30px;
+     
+   }
+   .skills p{
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .skills label{
+    font-size: 20px;
+      margin-right: 15px;
+      font-weight: bold;
+   }
+   /* end skills */
+.btn{
+    margin-top: 15px;
+}
+.btn button:hover{
+    color: white !important;
+    background-color: black !important;
+}
+
+/* End About */
+/* start Services */
+#Services {
+    background-color:   #f7f7f7 !important;
+}
+#Services .services-item {
+    border: 1px solid #e8e8e8;
+}
+#Services .services-item i {
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+#Services .services-item i:hover  {
+    color: blue;
+  
+}
+/* end Services */
+
+
+/* start  Client */
+#Client{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+    }
+    
+    .Testimonial-head h2{
+        color: #333333    ;
+        font-size: 40px;
+    padding-top: 50px;
+     
+        font-family: "Source Sans Pro", sans-serif ; 
+    
+     font-weight: 800;
+    
+     text-align: center;
+    
+     line-height: 30px;
+    }
+    .Testimonial-head h3{
+        margin-top: 20px;
+        width: 180px;
+        height: 1px;
+        background-color: red;
+      transform: translate(600px,0);
+       position: relative;
+       margin-bottom: 50px;
+    }
+    .Testimonial-head h3::after{
+        content:"" ;
+        height: 15px;
+        width: 70px;
+        border-top:1px solid red ;
+        
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .Testimonial-head h3::before{
+        content: "";
+        bottom:150px;
+        width: 70px;
+        
+        border-bottom: 1px solid red;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,5px);
+    
+    }
+    /* carousel*/
+    
+    
+    .feedback-contant{
+        width: 90%;
+      overflow: hidden;
+        display: flex;
+    
+    background-color:#F1F1F1 ;
+    padding: 30px 30px;
+    }
+    imgone-container{
+        width: 80%;
+        margin: auto;
+     position: relative;
+     overflow: hidden;
+    }
+    .color{
+        
+        width: 180px;
+        height: 280px;
+        background-color: #ff305b;
+        
+        transform: rotate(45deg);
+        position: relative;
+        bottom: 130px;
+        right: 70px;
+    }
+    .carouselimg-one{
+        width: 180px;
+        position: absolute;
+        left: 45px;
+        top: 20px;
+    }
+    
+    .carouselimg-one img{
+        width: 65%;
+    
+      border-radius: 50% ;
+    }
+    .carousel-inner{
+         width: 70%;
+        margin: auto;
+       
+    }
+    .imgone-contant {
+        width: 80%;
+    }
+    .carousel-indicators .button-one {
+        width: 25px;
+        height: 4px;
+        border:#ff305b solid 1px ;
+        background-color:#ff305b ;
+        border-radius:6px ;
+    }
+    
+    .carousel-indicators .button-two {
+        width: 10px;
+        height: 10px;
+        border:#ff305b solid 1px ;
+        background-color:#ff305b ;
+        border-radius:50% ;
+    }
+    .imgone-contant{
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        color: #555555;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .imgone-contant h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        color: #333;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .imgone-contant p {
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 90%;
+        font-style: italic;
+        color: #555555;
+    }
+    
+    /* icon  */
+    
+    
+    .stars {
+        margin-top: 8px;
+        color: #f1c30d;
+        font-size: 15px;
+    }
+
+    .star-0{
+    color: white !important;
+    }
+
+    /* end Client */
+    /* start blog */
+    #blog a{
+        color: #2b2424;
+    }
+    #blog a:hover{
+        color: blue;
+    }
+    #blog p{
+        font-size: 22px;
+    }
+    #blog h5{
+        font-size: 12px;
+    }
+     .card:hover img{
+transform: scale(1.2,1.2);
+filter: blur(1.5px);
+    } 
+    /* end blog */
+
+    /* start Contacts */
+
+#contacts{
+    background-color:#f7f7f7;
+}
+#contacts i {
+    font-size: 20px;
+ } 
+
+#contacts i:hover {
+   color: blue;
+} 
+.form-control:focus {
+    color: #2b2424;
+    background-color: #fff;
+    border-color: black;
+    box-shadow: none;
+}
+
+#contacts .btn{
+    color: #fff;
+}
+#contacts .btn:hover{
+    background-color: blue;
+}
+
+/* End Contacts */
+/* start footer */
+.footer{
+    width: 100%;
+  height: 25vh;
+  background-color:#1E1E1E;
+    text-align: center;
+    color: #fff;
+    
+}
+.footer p{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.footer p span{
+    
+    font-size: 20px;
+    transition: all 1s;
+}
+.footer p span:hover{
+    color: #ffc107;
+cursor: pointer;
+}
+.footer h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.footer h2 span{
+    color: #fff;
+    transition: all 1s;
+  
+}
+.footer h2 span:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* end footer */
